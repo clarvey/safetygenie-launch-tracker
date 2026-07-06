@@ -1,0 +1,87 @@
+{
+  "launchName": "SafetyGenie",
+  "pageTitle": "SafetyGenie | Launch Tracker",
+  "lastUpdated": "2026-07-06T12:00:00-04:00",
+  "overallStatus": "on-track",
+  "targetLaunchDate": "2026-10-20",
+  "description": "AI-powered assistant designed to bring expert-level environmental compliance into the hands of every EAP and WHS specialist",
+  "owner": "Clayton Harvey, Sr. Technical Program Manager",
+  "summary": {
+    "phase": "Phase 1 — Pilot",
+    "scope": "Cage Inspection & Unsellables Classification",
+    "region": "US"
+  },
+  "milestones": [
+    {
+      "name": "AI Models Finalized",
+      "targetDate": "2026-08-30",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "name": "AUSTIN WADM Integration Complete",
+      "targetDate": "2026-09-04",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "name": "AUSTIN Inspections Integration Complete",
+      "targetDate": "2026-09-04",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "name": "Dev Complete",
+      "targetDate": "2026-09-25",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "name": "UAT Kickoff",
+      "targetDate": "2026-09-28",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "name": "Required Approvals Complete",
+      "targetDate": "2026-09-30",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "name": "Pilot Launch",
+      "targetDate": "2026-10-20",
+      "status": "not-started",
+      "notes": ""
+    }
+  ],
+  "siteGroups": [
+    {
+      "feature": "Cage Inspection",
+      "sites": [
+        { "name": "BFI4", "region": "WA", "status": "pending", "notes": "" },
+        { "name": "DEN8", "region": "CO", "status": "pending", "notes": "" },
+        { "name": "FTW6", "region": "TX", "status": "pending", "notes": "" },
+        { "name": "BNA3", "region": "TN", "status": "pending", "notes": "" },
+        { "name": "MDW2", "region": "IL", "status": "pending", "notes": "" }
+      ]
+    },
+    {
+      "feature": "Unsellables Classification",
+      "sites": [
+        { "name": "BFI9", "region": "WA", "status": "pending", "notes": "" },
+        { "name": "PAE2", "region": "WA", "status": "pending", "notes": "" },
+        { "name": "BNA5", "region": "TN", "status": "pending", "notes": "" },
+        { "name": "BHM1", "region": "AL", "status": "pending", "notes": "" },
+        { "name": "EIK2", "region": "CO", "status": "pending", "notes": "" }
+      ]
+    }
+  ],
+  "blockers": [],
+  "links": [
+    {
+      "label": "Asana Project",
+      "url": "https://app.asana.com/1/8442528107068/project/1212992336284183/list/1213007615173832"
+    }
+  ]
+}
