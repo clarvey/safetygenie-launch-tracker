@@ -49,6 +49,12 @@
       "notes": ""
     },
     {
+      "name": "UAT Sign-off & Launch Readiness Confirmation",
+      "targetDate": "2026-10-10",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
       "name": "Pilot Launch",
       "targetDate": "2026-10-20",
       "status": "not-started",
@@ -80,8 +86,16 @@
   "blockers": [],
   "links": [
     {
-      "label": "Asana Project",
+      "label": "Asana — SafetyGenie Launch",
       "url": "https://app.asana.com/1/8442528107068/project/1212992336284183/list/1213007615173832"
+    },
+    {
+      "label": "Asana — Delivery Tracking",
+      "url": "https://app.asana.com/1/8442528107068/project/1211961007135818/list/1211961009828790"
+    },
+    {
+      "label": "Delivery Plan (Pippin)",
+      "url": "https://pippin.amazon.dev/architect/product_d126e7/safetygenie-2026-delivery-plan?artifact=safetygenie_delivery_plan"
     }
   ]
 }
