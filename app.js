@@ -18,8 +18,11 @@ function renderDashboard(data) {
 
   const statusLabel = data.overallStatus.replace('-', ' ');
   const daysUntilLaunch = getDaysUntil(data.targetLaunchDate);
-  const completedMilestones = data.milestones.filter(m => m.status === 'complete').length;
-  const totalMilestones = data.milestones.length;
+
+  // Count milestones across all groups
+  const allMilestones = (data.milestoneGroups || []).flatMap(g => g.milestones);
+  const completedMilestones = allMilestones.filter(m => m.status === 'complete').length;
+  const totalMilestones = allMilestones.length;
 
   app.innerHTML = `
     <div class="container">
@@ -51,18 +54,22 @@ function renderDashboard(data) {
         </div>
       </div>
 
-      <!-- Milestones -->
-      <div class="card">
-        <h2>Milestones</h2>
-        <ul class="milestone-list">
-          ${data.milestones.map(m => `
-            <li class="milestone-item ${m.status}">
-              <div class="milestone-name">${m.name}</div>
-              <div class="milestone-date">${formatShortDate(m.targetDate)}</div>
-              ${m.notes ? `<div class="milestone-notes">${m.notes}</div>` : ''}
-            </li>
-          `).join('')}
-        </ul>
+      <!-- Milestones (side by side) -->
+      <div class="milestones-grid">
+        ${(data.milestoneGroups || []).map(group => `
+          <div class="card">
+            <h2>${group.feature}</h2>
+            <ul class="milestone-list">
+              ${group.milestones.map(m => `
+                <li class="milestone-item ${m.status}">
+                  <div class="milestone-name">${m.name}</div>
+                  <div class="milestone-date">${formatShortDate(m.targetDate)}</div>
+                  ${m.notes ? `<div class="milestone-notes">${m.notes}</div>` : ''}
+                </li>
+              `).join('')}
+            </ul>
+          </div>
+        `).join('')}
       </div>
 
       <!-- Sites -->

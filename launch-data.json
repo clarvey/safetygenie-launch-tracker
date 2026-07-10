@@ -11,54 +11,100 @@
     "scope": "Cage Inspection & Unsellables Classification",
     "region": "US"
   },
-  "milestones": [
+  "milestoneGroups": [
     {
-      "name": "AI Models Finalized",
-      "targetDate": "2026-08-30",
-      "status": "not-started",
-      "notes": ""
+      "feature": "Cage Inspection",
+      "milestones": [
+        {
+          "name": "AI Models Finalized",
+          "targetDate": "2026-08-30",
+          "status": "not-started",
+          "notes": ""
+        },
+        {
+          "name": "AUSTIN Inspections Integration Complete",
+          "targetDate": "2026-09-04",
+          "status": "not-started",
+          "notes": ""
+        },
+        {
+          "name": "Dev Complete",
+          "targetDate": "2026-09-25",
+          "status": "not-started",
+          "notes": ""
+        },
+        {
+          "name": "UAT Kickoff",
+          "targetDate": "2026-09-28",
+          "status": "not-started",
+          "notes": ""
+        },
+        {
+          "name": "Required Approvals Complete",
+          "targetDate": "2026-09-30",
+          "status": "not-started",
+          "notes": ""
+        },
+        {
+          "name": "UAT Sign-off & Launch Readiness Confirmation",
+          "targetDate": "2026-10-10",
+          "status": "not-started",
+          "notes": ""
+        },
+        {
+          "name": "Pilot Launch",
+          "targetDate": "2026-10-20",
+          "status": "not-started",
+          "notes": ""
+        }
+      ]
     },
     {
-      "name": "AUSTIN WADM Integration Complete",
-      "targetDate": "2026-09-04",
-      "status": "not-started",
-      "notes": ""
-    },
-    {
-      "name": "AUSTIN Inspections Integration Complete",
-      "targetDate": "2026-09-04",
-      "status": "not-started",
-      "notes": ""
-    },
-    {
-      "name": "Dev Complete",
-      "targetDate": "2026-09-25",
-      "status": "not-started",
-      "notes": ""
-    },
-    {
-      "name": "UAT Kickoff",
-      "targetDate": "2026-09-28",
-      "status": "not-started",
-      "notes": ""
-    },
-    {
-      "name": "Required Approvals Complete",
-      "targetDate": "2026-09-30",
-      "status": "not-started",
-      "notes": ""
-    },
-    {
-      "name": "UAT Sign-off & Launch Readiness Confirmation",
-      "targetDate": "2026-10-10",
-      "status": "not-started",
-      "notes": ""
-    },
-    {
-      "name": "Pilot Launch",
-      "targetDate": "2026-10-20",
-      "status": "not-started",
-      "notes": ""
+      "feature": "Unsellables Classification",
+      "milestones": [
+        {
+          "name": "AI Models Finalized",
+          "targetDate": "2026-08-30",
+          "status": "not-started",
+          "notes": ""
+        },
+        {
+          "name": "AUSTIN WADM Integration Complete",
+          "targetDate": "2026-09-04",
+          "status": "not-started",
+          "notes": ""
+        },
+        {
+          "name": "Dev Complete",
+          "targetDate": "2026-09-25",
+          "status": "not-started",
+          "notes": ""
+        },
+        {
+          "name": "UAT Kickoff",
+          "targetDate": "2026-09-28",
+          "status": "not-started",
+          "notes": ""
+        },
+        {
+          "name": "Required Approvals Complete",
+          "targetDate": "2026-09-30",
+          "status": "not-started",
+          "notes": ""
+        },
+        {
+          "name": "UAT Sign-off & Launch Readiness Confirmation",
+          "targetDate": "2026-10-10",
+          "status": "not-started",
+          "notes": ""
+        },
+        {
+          "name": "Pilot Launch",
+          "targetDate": "2026-10-20",
+          "status": "not-started",
+          "notes": ""
+        }
+      ]
     }
   ],
   "siteGroups": [
